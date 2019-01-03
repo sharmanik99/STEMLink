@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_upevents"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Upcoming Events" />
+        <item
+            android:id="@+id/nav_resources"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Resources" />
+        <item
+            android:id="@+id/nav_marketplace"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Marketplace" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Our Events" />
+    </group>
+
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Email Us" />
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Our Website" />
+        </menu>
+    </item>
+
+</menu>

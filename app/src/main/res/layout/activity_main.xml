@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nikhil.stemlinkupdated.MainActivity"
+    android:background="@drawable/stemlogin">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Login_button"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="71dp"
+        android:onClick="Loginclick"
+        android:clickable="true"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_button"
+        android:width="300dp"
+        android:height="80dp"
+        android:clickable="true"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/editText3"
+        android:background="@android:color/transparent"
+        android:hint="Password"
+        android:textColorHint="@android:color/holo_red_light"
+        android:layout_marginBottom="127dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_above="@+id/signup_button"
+        android:layout_alignRight="@+id/signup_button"
+        android:layout_alignEnd="@+id/signup_button" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/editText"
+        android:background="@android:color/transparent"
+        android:textColorHint="@android:color/holo_red_light"
+        android:hint="Username"
+        android:layout_marginBottom="60dp"
+        android:layout_above="@+id/Login_button"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3" />
+
+</RelativeLayout>
